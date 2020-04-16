@@ -25,9 +25,9 @@ jobs:
                 uses: chabad360/hugo-gh-pages@master
                 with:
                     githubToken: ${{ secrets.PAGES_TOKEN }}
-                    # cname: www.moritzfriedrich.com
+                    # cname: www.digital-decameron.com
                     branch: master
-                    repo: Digital-Dekameron/website
+                    repo: Digital-Dekameron/digital-dekameron.github.io
                     hugoVersion: extended_0.69.0
                     args: --gc --minify
 
