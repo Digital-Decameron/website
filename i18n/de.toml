@@ -1,0 +1,5 @@
+[home]
+other = "Startseite"
+
+[more_articles_from]
+other = "Mehr Einträge von {{ .Site.Title }}"

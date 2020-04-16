@@ -1,0 +1,28 @@
+---
+label: Page
+hide_body: false
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+    min: '3'
+    max: '255'
+  label: title
+  description: Page title
+- name: show_in_menu
+  type: boolean
+  description: Show in menu
+  label: Show in Menu
+  default: true
+- name: created_at
+  type: datetime
+  label: Created At
+  description: Created At
+  config:
+    required: false
+    date_format: DD.MM.YYYY
+    time_format: HH:mm ZZ
+    display_utc: false
+    export_format: DD-MM-YYYYTHH:mm
+  default: now

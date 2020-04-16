@@ -1,0 +1,38 @@
+name: Publish Site
+
+on:
+    push:
+        branches:
+            - master
+
+jobs:
+    build-deploy:
+        runs-on: ubuntu-latest
+
+        steps:
+            -   name: Checkout Repo
+                uses: actions/checkout@v1
+                with:
+                    submodules: true
+
+            -   name: Install Yarn Modules
+                uses: Borales/actions-yarn@v2.1.0
+                with:
+                    cmd: install
+
+
+            -   name: Publish Site
+                uses: chabad360/hugo-gh-pages@master
+                with:
+                    githubToken: ${{ secrets.PAGES_TOKEN }}
+                    # cname: www.moritzfriedrich.com
+                    branch: master
+                    repo: Digital-Dekameron/website
+                    hugoVersion: extended_0.69.0
+                    args: --gc --minify
+
+#            -   name: Purge Cloudflare Cache
+#                uses: jakejarvis/cloudflare-purge-action@master
+#                env:
+#                    CLOUDFLARE_ZONE: ${{ secrets.CLOUDFLARE_ZONE }}
+#                    CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN }}
