@@ -27,7 +27,7 @@ jobs:
                     githubToken: ${{ secrets.PAGES_TOKEN }}
                     # cname: www.digital-decameron.com
                     branch: master
-                    repo: Digital-Dekameron/digital-dekameron.github.io
+                    repo: Digital-Dekameron/digital-decameron.github.io
                     hugoVersion: extended_0.69.0
                     args: --gc --minify
 
