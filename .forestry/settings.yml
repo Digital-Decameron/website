@@ -5,20 +5,37 @@ admin_path: "/static/admin"
 webhook_url: 
 sections:
 - type: directory
-  path: content/english
+  path: content/english/posts
+  label: Pages
+  create: all
+  match: "**/*"
+  templates:
+  - page
+- type: heading
   label: English
-  create: all
-  match: "**/*"
-  templates:
-  - page
 - type: directory
-  path: content/german
+  path: content/english/home
+  label: Homepage
+  create: all
+  match: "**/*"
+  templates:
+  - home-section
+- type: heading
   label: German
+- type: directory
+  path: content/german/home
+  label: Homepage
+  create: all
+  match: "**/*"
+  templates:
+  - home-section
+- type: directory
+  path: content/german/posts
+  label: Pages
   create: all
   match: "**/*"
   templates:
   - page
-  - home-section
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
