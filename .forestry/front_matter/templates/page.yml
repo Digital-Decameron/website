@@ -33,4 +33,5 @@ fields:
     export_format: DD-MM-YYYYTHH:mm
   default: now
 pages:
+- content/german/post/kontakt.md
 - content/german/post/über-uns.md
