@@ -34,3 +34,4 @@ fields:
   default: now
 pages:
 - content/english/post/impressum.md
+- content/english/post/tool-tipps.md
