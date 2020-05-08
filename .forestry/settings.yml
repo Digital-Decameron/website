@@ -4,13 +4,6 @@ auto_deploy: false
 admin_path: "/static/admin"
 webhook_url: 
 sections:
-- type: directory
-  path: content/english/posts
-  label: Pages
-  create: all
-  match: "**/*"
-  templates:
-  - page
 - type: heading
   label: English
 - type: directory
@@ -20,6 +13,13 @@ sections:
   match: "**/*"
   templates:
   - home-section
+- type: directory
+  path: content/english/posts
+  label: Pages
+  create: all
+  match: "**/*"
+  templates:
+  - page
 - type: heading
   label: German
 - type: directory
