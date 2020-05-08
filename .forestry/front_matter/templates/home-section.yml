@@ -1,6 +1,7 @@
 ---
 label: Home Section
 hide_body: false
+display_field: section_headline
 fields:
 - name: section_headline
   type: text
