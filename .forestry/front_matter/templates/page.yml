@@ -26,3 +26,9 @@ fields:
     display_utc: false
     export_format: DD-MM-YYYYTHH:mm
   default: now
+- name: visual
+  type: file
+  config:
+    maxSize: 6
+  label: Visual
+  description: A visual for the entire page.
