@@ -1,7 +1,7 @@
 ---
 title: Tipps für Einsteiger
 date: '2019-03-11'
-hero: "/images/hero-2.jpg"
+visual: "/images/hero-2.jpg"
 excerpt: Sample article showcasing basic Markdown syntax and formatting for HTML elements.
 authors:
 - Hugo Authors
