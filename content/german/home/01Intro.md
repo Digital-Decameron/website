@@ -25,11 +25,11 @@ Inmitten der Covid-19-Krise besinnen wir uns damit auf die uralte heilende Kraft
 
 #### Der Ablauf: Zehn Geschichten, 10 Menschen. Je 10 Minuten.
 
-Auf Einladung eines oder mehrerer Gastgeber*innen versammeln sich bis zu 10 Menschen in einer Videokonferenz.
+**_ICON_** Auf Einladung eines oder mehrerer Gastgeber*innen versammeln sich bis zu 10 Menschen in einer Videokonferenz.
 
-Nacheinander erzählt jeder Gast eine vorab ausgewählte und mitgebrachte Geschichte.
+**_ICON_** Nacheinander erzählt jeder Gast eine vorab ausgewählte und mitgebrachte Geschichte.
 
-Jeder Gast hat 10 Minuten Zeit, seine Geschichte zu erzählen, dann kommt der/die nächste an die Reihe.
+**_ICON _**Jeder Gast hat 10 Minuten Zeit, seine Geschichte zu erzählen, dann kommt der/die nächste an die Reihe.
 
 #### Die Perspektive: Decameron weltweit
 
