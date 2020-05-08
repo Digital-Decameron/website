@@ -1,2 +1,2 @@
 # Digital Decameron
-Content coming soon
+> Website for the Digital Decameron project
