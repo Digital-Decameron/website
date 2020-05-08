@@ -8,6 +8,9 @@ fields:
     required: false
   label: Section Title
   description: A title for the section.
+  showOnly:
+    field: title_hidden
+    value: false
 - name: title_hidden
   type: boolean
   label: Title Hidden
