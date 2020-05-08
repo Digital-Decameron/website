@@ -2,11 +2,11 @@
 label: Home Section
 hide_body: false
 fields:
-- name: section_title
+- name: section_headline
   type: text
   config:
     required: false
-  label: Section Title
+  label: Headline
   description: A title for the section.
   showOnly:
     field: title_hidden
