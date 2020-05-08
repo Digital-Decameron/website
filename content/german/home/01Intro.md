@@ -7,8 +7,6 @@ visual = ""
 +++
 ## Der Ursprung: Das Decamerone
 
-{{< youtube INEHhQbn5bw >}}
-
 Im Frühjahr 1348 flohen sieben Frauen und drei Männer vor der Pest in ein Landhaus in den Hügeln der Toskana. Dort erzählten sie sich gegenseitig Geschichten, um sich über die dunkle Zeit des Schwarzen Todes zu retten. Nach zehn Tagen und zehnmal zehn Geschichten kehrten sie nach Florenz zurück. So erzählt es Giovanni Boccaccios weltberühmte Novellensammlung “Das Decamerone”.
 
 #### _Die Idee: Das Digital Decameron_
@@ -21,7 +19,6 @@ Inmitten der Covid-19-Krise besinnen wir uns damit auf die uralte heilende Kraft
 
 Auf Einladung eines oder mehrerer Gastgeber*innen versammeln sich bis zu 10 Menschen in einer Videokonferenz.
 
-  
 Nacheinander erzählt jeder Gast eine vorab ausgewählte und mitgebrachte Geschichte.
 
 Jeder Gast hat 10 Minuten Zeit, seine Geschichte zu erzählen, dann kommt der/die nächste an die Reihe.
