@@ -1,11 +1,11 @@
 +++
 created_at = 2020-05-08T18:17:00Z
 show_in_menu = true
-title = "Tool "
+title = "Tool Tipps"
 visual = ""
 
 +++
-## Tool Tipps für Videoanrufe
+## Tipps für Videoanruf-Tools
 
 | Tables        | Are           | Cool  |
 
