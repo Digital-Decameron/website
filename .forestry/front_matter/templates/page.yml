@@ -2,14 +2,20 @@
 label: Page
 hide_body: false
 fields:
+- name: visual
+  type: file
+  config:
+    maxSize: 6
+  label: Visual
+  description: A visual for the entire page.
 - name: title
   type: text
   config:
     required: true
     min: '3'
     max: '255'
-  label: title
-  description: Page title
+  label: Page title
+  description: The page title.
 - name: show_in_menu
   type: boolean
   description: Show in menu
@@ -22,13 +28,7 @@ fields:
   config:
     required: false
     date_format: DD.MM.YYYY
-    time_format: HH:mm ZZ
+    time_format: HH:mm
     display_utc: false
     export_format: DD-MM-YYYYTHH:mm
   default: now
-- name: visual
-  type: file
-  config:
-    maxSize: 6
-  label: Visual
-  description: A visual for the entire page.
