@@ -45,9 +45,9 @@
 }
 
 .article-header {
-  position:     relative;
-  z-index:      10;
-  margin:       100px auto 120px;
+  position: relative;
+  z-index:  10;
+  margin:   100px auto 20px;
   //  padding-left: 68px;
   //  max-width:    749px;
 
@@ -69,7 +69,7 @@
   }
 
   @media screen and (max-height: 700px) {
-    margin: 100px auto;
+    margin: 100px auto 20px;
   }
 }
 
@@ -142,6 +142,7 @@
   max-width:          944px;
   overflow:           hidden;
   margin:             0 auto;
+  border-radius:      4px;
   -webkit-box-shadow: 0 30px 60px -10px rgba(0, 0, 0, 0.2),
                       0 18px 36px -18px rgba(0, 0, 0, 0.22);
   box-shadow:         0 30px 60px -10px rgba(0, 0, 0, 0.2),
@@ -448,8 +449,9 @@
 /**************************************ARTICLE BODY**************************************/
 
 .post-content {
-  padding: 260px 4rem 35px;
+  padding: 300px 4rem 35px;
 }
+
 
 /**************************************ARTICLE NEXT**************************************/
 
