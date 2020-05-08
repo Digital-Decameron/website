@@ -10,7 +10,7 @@
 ################################################################################
 
 # Site title.
-title: "Digitales Dekameron"
+title: "Digitales Decameron"
 
 # Hostname (and path) to the root, e.g. https://bep.is/
 baseURL: "https://digital-decameron.github.io/"
