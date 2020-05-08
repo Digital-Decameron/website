@@ -24,3 +24,4 @@ fields:
   description: Whether the headline should be hidden
 pages:
 - content/german/home/01Intro.md
+- content/german/home/02Einsteigertipps.md
