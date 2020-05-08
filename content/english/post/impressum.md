@@ -1,11 +1,11 @@
 +++
 created_at = 2020-05-08T18:01:00Z
 show_in_menu = true
-title = "Impressum"
+title = "Imprint"
 visual = "/uploads/icra-iflas-piled-book-159832.jpg"
 
 +++
-## Impressum
+## Imprint
 
 Verantwortlich i.S.d. § 6 MDStV & 6 TDG:
 
