@@ -16,3 +16,9 @@ fields:
   type: boolean
   label: Title Hidden
   description: Whether the title should be hidden
+- name: visual
+  type: file
+  config:
+    maxSize: 6
+  label: Visual
+  description: A hero image to show above the section
