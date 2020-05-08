@@ -1,5 +1,4 @@
 +++
-draft = true
 headline_hidden = false
 section_headline = "Was ist ein Digital Decameron?"
 title_hidden = false
