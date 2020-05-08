@@ -1,4 +1,8 @@
 {{ define "main" }}
+    {{ if .Params.visual }}
+        <div class="home-hero" style="background-image:url({{ .Params.visual }})"></div>
+    {{ end }}
+
     <div class="home-sections">
         {{ range (where .Site.RegularPages.ByTitle "Section" "home" ) }}
             <section class="section">

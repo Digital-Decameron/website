@@ -1,20 +1,25 @@
-#logo-desktop{
-    .change-fill{
-        fill: var(--primary);
-    }
+#logo-desktop {
+  .change-fill {
+    fill: var(--primary);
+  }
 }
 
-#logo-mobile{
-    path{
-        fill: var(--primary);
-    }
+#logo-mobile {
+  path {
+    fill: var(--primary);
+  }
 }
 
-@media screen and (max-width: 735px){
-    .Logo__Desktop {
-        display: none;
-    }
-    .Logo__Mobile{
-        display: block;
-    }
+@media screen and (max-width: 735px) {
+  .Logo__Desktop {
+    display: none;
+  }
+  .Logo__Mobile {
+    display: block;
+  }
+}
+
+.site-title {
+  font-size:   5rem;
+  font-weight: normal;
 }
