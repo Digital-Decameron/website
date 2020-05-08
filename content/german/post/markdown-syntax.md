@@ -8,7 +8,7 @@ authors:
 visual: "/uploads/salvatore-postiglione-motiv-aus-der-erzählung-des-dekameron-(il-decamerone)-von-giovanni-boccaccio.jpg"
 
 ---
-## 10 Tipps für Einsteiger
+## 9 Tipps für Einsteiger
 
 1. Trommelt zehn liebe Menschen zusammen, mit denen ihr einen Abend am digitalen Lagerfeuer verbringen möchtet.
 2. Klärt vorab, ob freie Themenwahl herrscht oder legt einen Themenkreis fest, z. B. Gruselgeschichten.
