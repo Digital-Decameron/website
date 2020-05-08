@@ -1,4 +1,14 @@
 ---
 label: Home Section
 hide_body: false
-fields: []
+fields:
+- name: section_title
+  type: text
+  config:
+    required: false
+  label: Section Title
+  description: A title for the section.
+- name: title_hidden
+  type: boolean
+  label: Title Hidden
+  description: Whether the title should be hidden
