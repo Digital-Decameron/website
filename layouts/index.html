@@ -1,9 +1,11 @@
 {{ define "main" }}
-    <section class="home-sections">
+    <div class="home-sections">
         {{ range (where .Site.RegularPages.ByTitle "Section" "home" ) }}
-            {{ .Content }}
+            <section class="section">
+                {{ .Content }}
+            </section>
         {{ end }}
-    </section>
+    </div>
 
     {{ partial "articles/hero.html" . }}
 
