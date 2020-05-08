@@ -29,7 +29,7 @@ Inmitten der Covid-19-Krise besinnen wir uns damit auf die uralte heilende Kraft
 
 **_ICON_** Nacheinander erzählt jeder Gast eine vorab ausgewählte und mitgebrachte Geschichte.
 
-**_ICON _**Jeder Gast hat 10 Minuten Zeit, seine Geschichte zu erzählen, dann kommt der/die nächste an die Reihe.
+**_ICON_** Jeder Gast hat 10 Minuten Zeit, seine Geschichte zu erzählen, dann kommt der/die nächste an die Reihe.
 
 #### Die Perspektive: Decameron weltweit
 
