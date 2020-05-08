@@ -89,7 +89,7 @@ ol {
   counter-reset:      list;
   color:              var(--articleText);
   position:           relative;
-  padding:            15px 0 30px 30px;
+  padding:            15px 0 30px 50px;
   margin:             0 auto;
   -webkit-transition: var(--color-mode-transition);
   -o-transition:      var(--color-mode-transition);
@@ -110,7 +110,7 @@ ol {
 @media screen and (max-width: 735px) {
   ol {
     //  max-width:    486px;
-    padding-left: 0px;
+    padding-left: 0;
   }
 }
 
