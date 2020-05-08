@@ -18,7 +18,7 @@ fields:
   description: The page title.
 - name: show_in_menu
   type: boolean
-  description: Show in menu
+  description: Whether to show this page in the menu.
   label: Show in Menu
   default: true
 - name: created_at
