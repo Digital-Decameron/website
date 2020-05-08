@@ -7,4 +7,3 @@ heading = "Das ist eine Schlagzeile."
 maxWidthPX = 652
 
 +++
-Hallo Welt!
