@@ -33,7 +33,7 @@ sections:
   path: content/german/posts
   label: Pages
   create: all
-  match: "**/*"
+  match: "*"
   templates:
   - page
 upload_dir: static/uploads
