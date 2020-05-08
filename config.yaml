@@ -13,7 +13,7 @@
 title: "Digitales Dekameron"
 
 # Hostname (and path) to the root, e.g. https://bep.is/
-baseURL: "https://digital-dekameron.github.io/"
+baseURL: "https://digital-decameron.github.io/"
 
 languageCode: "de"
 defaultContentLanguage: de
