@@ -26,3 +26,5 @@ fields:
     display_utc: false
     export_format: DD-MM-YYYYTHH:mm
   default: now
+pages:
+- content/german/home/intro.md
