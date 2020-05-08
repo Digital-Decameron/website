@@ -26,7 +26,7 @@ sections:
   path: content/german/home
   label: Homepage
   create: all
-  match: "**/*"
+  match: "*"
   templates:
   - home-section
 - type: directory
