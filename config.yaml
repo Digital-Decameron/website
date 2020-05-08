@@ -10,7 +10,7 @@
 ################################################################################
 
 # Site title.
-title: "Digital Dekameron"
+title: "Digitales Dekameron"
 
 # Hostname (and path) to the root, e.g. https://bep.is/
 baseURL: "https://digital-dekameron.github.io/"
@@ -29,6 +29,7 @@ languages:
         languageName: English
         contentDir: content/english
         weight: 1
+        title: "Digital Decameron"
 
 # User-defined configuration values.
 Params:
