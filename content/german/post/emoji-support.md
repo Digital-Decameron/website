@@ -10,8 +10,6 @@ visual: "/uploads/blur-book-stack-books-bookshelves-590493.jpg"
 ---
 ## Häufig gestellte Fragen
 
-## 
-
 ###### _1. Was genau ist ein Digital Decameron?_
 
 Stelle dir vor, du sitzt mit lauter lieben Menschen rund um ein Lagerfeuer und ihr erzählt euch Geschichten? Genau so fühlt es sich an.
