@@ -2,7 +2,7 @@
 created_at = 2020-05-08T17:42:00Z
 show_in_menu = true
 title = "Kontakt"
-visual = ""
+visual = "/uploads/selective-focus-photo-of-green-telephone-955081.jpg"
 
 +++
 ## Schreibt uns
