@@ -6,10 +6,13 @@ webhook_url:
 sections:
 - type: heading
   label: English
-- type: document
-  path: english/content/_index.md
+- type: directory
+  path: content/english/home
   label: Homepage
-  match: "**/*"
+  create: documents
+  match: "*"
+  templates:
+  - home-section
 - type: directory
   path: content/english/post
   label: Pages
@@ -19,10 +22,13 @@ sections:
   - page
 - type: heading
   label: German
-- type: document
-  path: content/german/_index.md
+- type: directory
+  path: content/german/home
   label: Homepage
-  match: "**/*"
+  create: documents
+  match: "*"
+  templates:
+  - home-section
 - type: directory
   path: content/german/post
   label: Pages
