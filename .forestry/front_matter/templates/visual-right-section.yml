@@ -16,4 +16,5 @@ fields:
   label: Visual
   description: A section visual. Will be shown on the right.
 pages:
+- content/german/home/03-idee.md
 - content/german/home/05-perspektive.md
