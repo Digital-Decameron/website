@@ -9,7 +9,7 @@ icon = "/uploads/einladung.png"
 template = "list-section-item"
 text = "Auf Einladung eines oder mehrerer Gastgeber*innen versammeln sich bis zu 10 Menschen in einer Videokonferenz."
 [[items]]
-icon = "/uploads/erzahlen4.png"
+icon = "/uploads/erzahlen6.png"
 template = "list-section-item"
 text = "Nacheinander erzählt jeder Gast eine vorab ausgewählte und mitgebrachte Geschichte."
 [[items]]
