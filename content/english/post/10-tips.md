@@ -3,8 +3,6 @@ created_at = 2020-05-17T02:10:00Z
 show_in_menu = true
 title = "Tipps für Einsteiger"
 visual = "/uploads/salvatore-postiglione-motiv-aus-der-erzählung-des-dekameron-(il-decamerone)-von-giovanni-boccaccio.jpg"
-[menu.main]
-weight = 1
 
 +++
 ## 10 Tipps für Einsteiger
