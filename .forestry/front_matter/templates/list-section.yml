@@ -1,6 +1,7 @@
 ---
 label: List Section
 hide_body: false
+display_field: headline
 fields:
 - name: headline
   type: text
