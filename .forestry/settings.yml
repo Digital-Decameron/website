@@ -28,6 +28,7 @@ sections:
   create: documents
   match: "*"
   templates:
+  - homepage-hero-section
   - full-width-section
   - visual-left-section
   - visual-right-section
