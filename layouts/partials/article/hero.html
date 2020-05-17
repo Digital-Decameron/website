@@ -1,4 +1,4 @@
-<section id="articleHero" class="section narrow">
+<section id="articleHero" class="section section--hero narrow">
     <div class="article-hero">
         <header class="article-header">
             <h1 class="article-hero-heading">{{ .Page.Params.Title }}</h1>
@@ -11,9 +11,9 @@
             </div>
         </header>
         {{ with .Page.Params.visual }}
-        <div class="article-hero-image" id="ArticleImage__Hero">
-            <img src="{{ . }}">
-        </div>
+            <div class="article-hero-image" id="ArticleImage__Hero">
+                <img src="{{ . }}" alt="">
+            </div>
         {{ end }}
     </div>
 </section>

@@ -1,12 +1,13 @@
 <section id="articleHero" class="section narrow">
-  <div class="article-hero">
-      <header class="article-header">
-          <h1 class="article-hero-heading">{{ .Page.Params.Title }}</h1>
-      </header>
-      {{ with .Params.visual }}
-      <div class="article-hero-image" id="ArticleImage__Hero">
-          <img src="{{ . }}">
-      </div>
-      {{ end }}
-  </div>
+    <div class="article-hero">
+        <header class="article-header">
+            <h1 class="article-hero-heading">{{ .Page.Params.Title }}</h1>
+        </header>
+
+        {{ with .Params.visual }}
+            <div class="article-hero-image" id="ArticleImage__Hero">
+                <img src="{{ . }}" alt="Hero image">
+            </div>
+        {{ end }}
+    </div>
 </section>
