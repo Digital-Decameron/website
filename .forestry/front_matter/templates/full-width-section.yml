@@ -1,4 +1,11 @@
 ---
 label: Full Width Section
-hide_body: true
-fields: []
+hide_body: false
+display_field: headline
+fields:
+- name: headline
+  type: text
+  config:
+    required: true
+  label: Headline
+  description: Section headline
