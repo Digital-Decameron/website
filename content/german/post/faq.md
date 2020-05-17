@@ -1,9 +1,12 @@
 +++
 created_at = 2020-05-17T16:22:00Z
 show_in_menu = true
-menu = [ "main" ]
 title = "FAQs"
 visual = "/uploads/library.jpg"
+[menu.footer]
+weight = 1
+[menu.main]
+weight = 2
 
 +++
 ## Häufig gestellte Fragen

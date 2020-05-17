@@ -1,87 +1,44 @@
-################################################################################
-## Global site configuration file
-##:=============================
-## This file contains the global configuration for the website. These values
-## control how Hugo renders the site. Most settings already have a sensible
-## default, so make sure to read the documentation before you change anything.
-##
-## For a reference, see here:
-## https://gohugo.io/getting-started/configuration/#all-configuration-settings
-################################################################################
-
-# Site title.
-title: "Digital Decameron"
-
-# Hostname (and path) to the root, e.g. https://bep.is/
-baseURL: "https://digital-decameron.github.io/"
-
-languageCode: "de"
+---
+title: Digital Decameron
+baseURL: https://digital-decameron.github.io/
+languageCode: de
 defaultContentLanguage: de
 languages:
-    de:
-        languageCode: de
-        languageName: Deutsch
-        contentDir: content/german
-        weight: 2
-
-    en:
-        languageCode: en
-        languageName: English
-        contentDir: content/english
-        weight: 1
-        title: "Digital Decameron"
-
-# User-defined configuration values.
+  de:
+    languageCode: de
+    languageName: Deutsch
+    contentDir: content/german
+    weight: 2
+  en:
+    languageCode: en
+    languageName: English
+    contentDir: content/english
+    weight: 1
+    title: Digital Decameron
 Params:
-
-    # TypeKit Kit ID
-    # typeKitId: "foobar"
-
-    # Any other Google Fonts required for the site. Must be specified in the
-    # following format:
-    #  - [ "<Font Name>", "<Weight 1>", "<Weight 2>", "<Weight N>" ]
-    googleFonts:
-        - [ "Fira Code", "400" ]
-        - [ "Open Sans", "400, 400i, 600, 600i" ]
-
-    # SEO Meta description. Also used for Open Graph data.
-    description: "Digital Decameron"
-
-    # Copyright string
-    # copyright: "Copyright © 2020, MessengerPeople, all rights reserved."
-
-
-# Enable .GitInfo object for each page (if the Hugo site is versioned by Git).
-# This will then update the LastMod parameter for each page using the last git
-# commit date for that content file.
+  googleFonts:
+  - - Fira Code
+    - '400'
+  - - Open Sans
+    - 400, 400i, 600, 600i
+  description: Digital Decameron
 enableGitInfo: true
-
-# Enable to turn relative URLs into absolute.
 canonifyURLs: true
-
-# Enable Emoji emoticons support for page content; see the Emoji Cheat Sheet:
-# https://www.webpagefx.com/tools/emoji-cheat-sheet/
 enableEmoji: true
-
-# The length of text in words to show in a .Summary.
 summaryLength: 70
-
 pygmentsUseClasses: true
-
 markup:
-    # Code highlighting settings
-    highlight:
-        codeFences: true
-        guessSyntax: false
-        hl_Lines: ""
-        lineNoStart: 1
-        lineNos: false
-        lineNumbersInTable: true
-        noClasses: true
-        style: dracula
-        tabWidth: 4
-
-    tableOfContents:
-        startLevel: 3
-        endLevel: 6
-        ordered: false
+  highlight:
+    codeFences: true
+    guessSyntax: false
+    hl_Lines: ''
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: true
+    style: dracula
+    tabWidth: 4
+  tableOfContents:
+    startLevel: 3
+    endLevel: 6
+    ordered: false
