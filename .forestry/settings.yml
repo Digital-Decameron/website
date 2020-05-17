@@ -28,7 +28,7 @@ sections:
   create: all
   match: "*"
   templates:
-  - home-section
+  - homepage
 - type: directory
   path: content/german/post
   label: Pages
