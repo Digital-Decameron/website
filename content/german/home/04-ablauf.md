@@ -1,5 +1,4 @@
 +++
-draft = true
 headline_hidden = false
 section_headline = "Der Ablauf: Zehn Geschichten, 10 Menschen. Je 10 Minuten."
 visual = ""
