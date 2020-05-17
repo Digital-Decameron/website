@@ -27,8 +27,6 @@ function updateProgress () {
   let transformation             = 'translateY(' + percentScrolled + '%)';
   scrollProgress.style.transform = ( transformation );
 
-  console.log(percentScrolled);
-
   if ( percentScrolled > 100 ) {
     progressBar.style.animationName = 'progress-fade-out';
     setTimeout(function () {

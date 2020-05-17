@@ -1,11 +1,16 @@
 {{ define "main" }}
+
+    <section class="section section--menu section--home">
+        {{ partial "menus/main.html" . }}
+    </section>
+
     {{ if .Params.visual }}
         <div class="home-hero" style="background-image:url({{ .Params.visual }})"></div>
     {{ end }}
 
     <div class="home-sections">
         {{ range (where .Site.RegularPages.ByTitle "Section" "home" ) }}
-            <section class="section">
+            <section class="section section--home">
                 {{ .Content }}
             </section>
         {{ end }}

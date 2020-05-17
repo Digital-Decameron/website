@@ -1,10 +1,6 @@
 +++
-created_at = 2020-04-03T19:40:00Z
+created_at = 2020-05-20T15:34:00Z
 show_in_menu = true
-title = "Homepage"
-
-[hero]
-heading = "This is a tagline."
-maxWidthPX = 652
+title = "Startseite"
+visual = "/uploads/hero.jpg"
 +++
-Hello World.
