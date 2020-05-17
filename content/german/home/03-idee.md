@@ -3,7 +3,7 @@ headline = "Die Idee: Das Digital Decameron"
 headline_hidden = false
 layout_type = "visual_left"
 section_headline = "Die Idee: Das Digital Decameron"
-visual = ""
+visual = "/uploads/digitaldekameron.JPG"
 
 +++
 Das Digital Decameron ist eine Form der zwischenmenschlichen Begegnung per Videochat, die einen geschützten Raum bietet, Geschichten zu erzählen und ihnen zu lauschen.
