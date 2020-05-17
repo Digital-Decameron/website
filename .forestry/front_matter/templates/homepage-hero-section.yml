@@ -1,4 +1,23 @@
 ---
 label: Homepage Hero Section
 hide_body: false
-fields: []
+display_field: title
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+  description: A prominent title.
+- name: subtitle
+  type: text
+  config:
+    required: false
+  label: Subtitle
+  description: A subtitle, shown below the title.
+- name: video_link
+  type: text
+  config:
+    required: false
+  label: Video Link
+  description: Link to a video on Youtube or Vimeo. Will be shown full-width.
