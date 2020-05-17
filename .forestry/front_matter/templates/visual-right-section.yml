@@ -9,12 +9,18 @@ fields:
     required: true
   label: Headline
   description: Section headline
+  showOnly:
+    field: headline_hidden
 - name: visual
   type: file
   config:
     maxSize: 6
   label: Visual
   description: A section visual. Will be shown on the right.
+- name: headline_hidden
+  type: boolean
+  label: Headline hidden
+  description: If the headline is hidden, it won't be shown for this section.
 pages:
 - content/german/home/03-idee.md
 - content/german/home/05-perspektive.md
