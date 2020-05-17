@@ -1,56 +1,54 @@
-<section class="section nartrow">
-    <div id="articlesList" class="articles-list-container show-details">
-        {{ $posts := partialCached "func/GetArticles" . "articles" }}
-        {{ $paginator := .Paginate $posts }}
-        {{ $biggerFirst := true }}
-        {{ $biggerPlaced := false }}
-        {{ range $index, $article := $paginator.Pages }}
-            {{ $counter := mod $index 2 }}
-            {{ if not $counter }}
-                <div class="post-row">
+<div id="articlesList" class="articles-list-container show-details">
+    {{ $posts := partialCached "func/GetArticles" . "articles" }}
+    {{ $paginator := .Paginate $posts }}
+    {{ $biggerFirst := true }}
+    {{ $biggerPlaced := false }}
+    {{ range $index, $article := $paginator.Pages }}
+        {{ $counter := mod $index 2 }}
+        {{ if not $counter }}
+            <div class="post-row">
+        {{ end }}
+        <a href="{{ $article.RelPermalink }}" class="article-link"
+                {{ if and (eq ($biggerFirst) true) (eq ($biggerPlaced) false) }}
+            {{ if eq $counter 0 }}
+                id="article-link-bigger"
+                {{ $biggerPlaced = true }}
             {{ end }}
-            <a href="{{ $article.RelPermalink }}" class="article-link"
-                    {{ if and (eq ($biggerFirst) true) (eq ($biggerPlaced) false) }}
-                {{ if eq $counter 0 }}
-                    id="article-link-bigger"
-                    {{ $biggerPlaced = true }}
-                {{ end }}
-            {{ else if and (not $biggerFirst) (not $biggerPlaced) }}
-                {{ if ne $counter 0 }}
-                    id="article-link-bigger"
-                    {{ $biggerPlaced = true }}
-                {{ end }}
-            {{ end }}>
-                <div class="article-data-outer">
-                    <div class="image-container" style="background-image:url({{ $article.Params.visual }})">
-                    </div>
-                    <div class="article-data">
-                        <h2 class="article-title">
-                            {{ $article.Params.title }}
-                        </h2>
-                        <p class="article-excerpt">
-                            {{ $article.Params.excerpt }}
-                        </p>
-                        <div class="article-metadata">
-                            {{ $article.Params.created_at.Format "2. January 2006" }} • {{ $article.ReadingTime }} min
-                            read
-                        </div>
+        {{ else if and (not $biggerFirst) (not $biggerPlaced) }}
+            {{ if ne $counter 0 }}
+                id="article-link-bigger"
+                {{ $biggerPlaced = true }}
+            {{ end }}
+        {{ end }}>
+            <div class="article-data-outer">
+                <div class="image-container" style="background-image:url({{ $article.Params.visual }})">
+                </div>
+                <div class="article-data">
+                    <h2 class="article-title">
+                        {{ $article.Params.title }}
+                    </h2>
+                    <p class="article-excerpt">
+                        {{ $article.Params.excerpt }}
+                    </p>
+                    <div class="article-metadata">
+                        {{ $article.Params.created_at.Format "2. January 2006" }} • {{ $article.ReadingTime }} min
+                        read
                     </div>
                 </div>
-            </a>
+            </div>
+        </a>
 
-            {{ $post_counter := mod (add $index 1) 2 }}
-            {{ $len := (where .Pages "Type" "posts") }}
-            {{ if or (eq $post_counter 0) (eq (add $index 1) $len) }}
-                </div>
-                {{ $biggerPlaced = false }}
-                {{ if $biggerFirst }}
-                    {{ $biggerFirst = false }}
-                {{ else }}
-                    {{ $biggerFirst = true }}
-                {{ end }}
+        {{ $post_counter := mod (add $index 1) 2 }}
+        {{ $len := (where .Pages "Type" "posts") }}
+        {{ if or (eq $post_counter 0) (eq (add $index 1) $len) }}
+            </div>
+            {{ $biggerPlaced = false }}
+            {{ if $biggerFirst }}
+                {{ $biggerFirst = false }}
+            {{ else }}
+                {{ $biggerFirst = true }}
             {{ end }}
         {{ end }}
-    </div>
-    {{ partial "paginator/paginator.html" . }}
-</section>
+    {{ end }}
+</div>
+{{ partial "paginator/paginator.html" . }}
