@@ -1,5 +1,4 @@
 +++
-draft = true
 headline_hidden = false
 section_headline = "Der Ursprung: Das Decamerone"
 visual = ""
