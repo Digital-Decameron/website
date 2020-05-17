@@ -114,15 +114,14 @@
                     {{ end }}
 
                     <div class="section__content-wrapper">
-                        {{ with .Params.visual }}
-                            <div class="section__media">
-                                <img src="{{ . }}" alt="">
-                            </div>
-                        {{ end }}
-
-                        <div class="section__content">
-                            {{ .Content }}
-                        </div>
+                        <ul class="home__list">
+                            {{ range .Params.items }}
+                                <li class="list__list-item">
+                                    <img class="list-item__icon" src="{{ .icon }}" alt="Icon">
+                                    <span class="list-item__text">{{ .text }}</span>
+                                </li>
+                            {{ end }}
+                        </ul>
                     </div>
                 </section>
             {{ end }}
