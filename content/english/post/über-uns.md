@@ -1,12 +1,8 @@
 +++
 created_at = 2020-05-08T17:41:00Z
 show_in_menu = true
-title = "Über uns"
+title = "About us"
 visual = "/uploads/digitaldekameron.JPG"
-[menu.footer]
-weight = 2
-[menu.main]
-weight = 4
 
 +++
 ## Wer wir sind
