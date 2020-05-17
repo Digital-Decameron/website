@@ -9,3 +9,9 @@ fields:
     required: true
   label: Headline
   description: Section headline
+  showOnly:
+    field: headline_hidden
+- name: headline_hidden
+  type: boolean
+  label: Headline hidden
+  description: If the headline is hidden, it won't be shown for this section.
