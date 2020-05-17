@@ -1,4 +1,19 @@
 ---
 label: Homepage
 hide_body: true
-fields: []
+fields:
+- name: visual
+  type: file
+  config:
+    maxSize: 6
+  label: VIsual
+  description: A visual for the homepage hero
+- name: sections
+  type: blocks
+  label: Sections
+  template_types:
+  - home-section
+  config:
+    min: 1
+    max: 
+  description: Sections for the home page content
