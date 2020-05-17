@@ -6,7 +6,8 @@
 }
 
 .menu {
-  display: flex;
+  display:     flex;
+  font-family: var(--serif);
 }
 
 .menu.menu--footer {
@@ -19,7 +20,6 @@
 
 .menu.menu--main {
   padding:     1rem 3rem;
-  margin-left: 1px;
   background:  rgb(250, 250, 250);
   box-shadow:  0 12px 5px -10px var(--background-color);
 
