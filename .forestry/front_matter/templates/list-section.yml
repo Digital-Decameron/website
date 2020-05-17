@@ -1,6 +1,6 @@
 ---
 label: List Section
-hide_body: false
+hide_body: true
 display_field: headline
 fields:
 - name: headline
