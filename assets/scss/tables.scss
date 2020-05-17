@@ -61,8 +61,6 @@ tbody > tr:first-child td {
   }
 }
 
-/*************************************TABLE HEAD************************************/
-
 thead {
   text-align:      left;
   border-collapse: collapse;
@@ -76,4 +74,8 @@ thead {
 
 table thead th {
   padding: 1rem 0;
+}
+
+table tbody tr td:first-child {
+  white-space: nowrap;
 }
