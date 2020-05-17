@@ -21,3 +21,11 @@ fields:
   type: boolean
   label: Headline hidden
   description: If the headline is hidden, it won't be shown for this section.
+- name: layout_type
+  type: text
+  config:
+    required: false
+  label: Layout Type
+  description: The layout type. Should not be modified.
+  hidden: true
+  default: visual_right
