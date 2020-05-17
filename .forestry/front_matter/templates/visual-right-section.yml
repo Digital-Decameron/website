@@ -1,4 +1,17 @@
 ---
 label: Visual Right Section
 hide_body: false
-fields: []
+display_field: headline
+fields:
+- name: headline
+  type: text
+  config:
+    required: true
+  label: Headline
+  description: Section headline
+- name: visual
+  type: file
+  config:
+    maxSize: 6
+  label: Visual
+  description: A section visual. Will be shown on the right.
