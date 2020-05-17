@@ -6,6 +6,7 @@ excerpt: Sample article showcasing basic Markdown syntax and formatting for HTML
 authors:
 - Hugo Authors
 visual: "/uploads/salvatore-postiglione-motiv-aus-der-erzählung-des-dekameron-(il-decamerone)-von-giovanni-boccaccio.jpg"
+created_at: 2020-05-17T04:10:00+02:00
 
 ---
 ## 10 Tipps für Einsteiger
