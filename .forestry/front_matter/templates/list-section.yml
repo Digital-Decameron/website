@@ -18,7 +18,8 @@ fields:
 - name: items
   type: blocks
   label: List items
-  template_types: []
+  template_types:
+  - list-section-item
   config:
     min: 
     max: 
