@@ -33,6 +33,6 @@ fields:
     export_format: YYYY-MM-DDThh:mm:ssZ
   default: now
 pages:
-- content/english/post/impressum.md
+- content/english/post/imprint.md
 - content/german/post/impressum.md
 - content/german/post/tool.md
