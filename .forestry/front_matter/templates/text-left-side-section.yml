@@ -1,4 +1,17 @@
 ---
 label: Text left side section
 hide_body: false
-fields: []
+display_field: headline
+fields:
+- name: headline
+  type: text
+  config:
+    required: false
+  label: Headline
+  description: Section headline
+  showOnly:
+    field: headline_hidden
+- name: headline_hidden
+  type: boolean
+  label: Headline hidden
+  description: If the headline is hidden, it won't be shown for this section.
