@@ -3,7 +3,7 @@ headline = "Die Perspektive: Decameron weltweit"
 headline_hidden = false
 layout_type = "visual_left"
 section_headline = "Die Perspektive: Decameron weltweit"
-visual = ""
+visual = "/uploads/ursprung.png"
 
 +++
 Das Digital Decameron ist ein Open-Source-Projekt, das sich weiterentwickeln und wie ein gutartiges Virus verbreiten soll, damit es überall auf der Welt Menschen erreicht, denen die heilende Kraft von Geschichten helfen kann.
