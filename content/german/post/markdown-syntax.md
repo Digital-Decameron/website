@@ -1,16 +1,11 @@
----
-title: Tipps für Einsteiger
-date: '2019-03-11'
-hero: "/images/hero-2.jpg"
-excerpt: Sample article showcasing basic Markdown syntax and formatting for HTML elements.
-authors:
-- Hugo Authors
-visual: "/uploads/salvatore-postiglione-motiv-aus-der-erzählung-des-dekameron-(il-decamerone)-von-giovanni-boccaccio.jpg"
-created_at: 2020-05-17T04:10:00+02:00
++++
+created_at = 2020-05-17T04:10:00+02:00
+show_in_menu = true
+title = "Tipps für Einsteiger"
+visual = "/uploads/salvatore-postiglione-motiv-aus-der-erzählung-des-dekameron-(il-decamerone)-von-giovanni-boccaccio.jpg"
 
----
++++
 ## 10 Tipps für Einsteiger
-
  1. Trommelt zehn liebe Menschen zusammen, mit denen ihr einen Abend am digitalen Lagerfeuer verbringen möchtet.
  2. Überlegt euch, ob freie Themenwahl herrscht oder legt einen Themenkreis fest, z. B. Gruselgeschichten.
  3. Trefft euch zur verabredeten Zeit in einer Videokonferenz, zum Beispiel bei Google Hangout oder auf Zoom.

@@ -1,14 +1,10 @@
----
-title: FAQs
-date: '2019-03-05'
-hero: "/images/hero-3.jpg"
-excerpt: Guide to emoji usage in Hugo
-authors:
-- Hugo Authors
-visual: "/uploads/library.jpg"
-created_at: 17-05-2020T16:22
++++
+created_at = 2020-05-17T16:22:00Z
+show_in_menu = true
+title = "FAQs"
+visual = "/uploads/library.jpg"
 
----
++++
 ## Häufig gestellte Fragen
 
 ###### 1. Was genau ist ein Digital Decameron?
