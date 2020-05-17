@@ -31,7 +31,7 @@ of the whole section and append them to our $next slice. */}}
 <section id="articleNext" class="section narrow">
     <div class="footer-spacer"></div>
 
-    <div class="next-articles-grid" numberOfArticles={numberOfArticles}>
+    <div class="next-articles-grid" data-number-of-articles="{numberOfArticles}">
         <div class="post-row">
             {{ range $index, $article := $next }}
                 <a href="{{ $article.RelPermalink }}"

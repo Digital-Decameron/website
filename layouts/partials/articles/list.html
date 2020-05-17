@@ -10,42 +10,44 @@
                 <div class="post-row">
             {{ end }}
             <a href="{{ $article.RelPermalink }}" class="article-link"
-            {{ if and (eq ($biggerFirst) true) (eq ($biggerPlaced) false) }}
-              {{ if eq $counter 0 }}
-                id="article-link-bigger"
-                {{ $biggerPlaced = true }}
-              {{ end }}
+                    {{ if and (eq ($biggerFirst) true) (eq ($biggerPlaced) false) }}
+                {{ if eq $counter 0 }}
+                    id="article-link-bigger"
+                    {{ $biggerPlaced = true }}
+                {{ end }}
             {{ else if and (not $biggerFirst) (not $biggerPlaced) }}
-              {{ if ne $counter 0 }}
-                id="article-link-bigger"
-                {{ $biggerPlaced = true }}
-              {{ end }}
+                {{ if ne $counter 0 }}
+                    id="article-link-bigger"
+                    {{ $biggerPlaced = true }}
+                {{ end }}
             {{ end }}>
-              <div class="article-data-outer">
-                <div class="image-container" style="background-image:url({{ $article.Params.visual }})">
+                <div class="article-data-outer">
+                    <div class="image-container" style="background-image:url({{ $article.Params.visual }})">
+                    </div>
+                    <div class="article-data">
+                        <h2 class="article-title">
+                            {{ $article.Params.title }}
+                        </h2>
+                        <p class="article-excerpt">
+                            {{ $article.Params.excerpt }}
+                        </p>
+                        <div class="article-metadata">
+                            {{ $article.Params.created_at.Format "2. January 2006" }} • {{ $article.ReadingTime }} min
+                            read
+                        </div>
+                    </div>
                 </div>
-                <div class="article-data">
-                  <h2 class="article-title">
-                    {{ $article.Params.title }}
-                  </h2>
-                  <p class="article-excerpt">
-                    {{ $article.Params.excerpt }}
-                  </p>
-                  <div class="article-metadata">
-                    {{ $article.Date.Format "2. January 2006" }} • {{ $article.ReadingTime }} min read
-                  </div>
-                </div>
-              </div>
             </a>
-            {{ $counter := mod (add $index 1) 2 }}
+
+            {{ $post_counter := mod (add $index 1) 2 }}
             {{ $len := (where .Pages "Type" "posts") }}
-            {{ if or (eq $counter 0) (eq (add $index 1) $len) }}
+            {{ if or (eq $post_counter 0) (eq (add $index 1) $len) }}
                 </div>
                 {{ $biggerPlaced = false }}
                 {{ if $biggerFirst }}
-                  {{ $biggerFirst = false }}
+                    {{ $biggerFirst = false }}
                 {{ else }}
-                  {{ $biggerFirst = true }}
+                    {{ $biggerFirst = true }}
                 {{ end }}
             {{ end }}
         {{ end }}
