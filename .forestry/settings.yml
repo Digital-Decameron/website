@@ -35,6 +35,7 @@ sections:
   templates:
   - homepage-hero-section
   - text-left-side-section
+  - list-section
   - full-width-section
   - visual-left-section
   - visual-right-section
