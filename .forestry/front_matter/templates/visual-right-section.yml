@@ -15,3 +15,5 @@ fields:
     maxSize: 6
   label: Visual
   description: A section visual. Will be shown on the right.
+pages:
+- content/german/home/05-perspektive.md
