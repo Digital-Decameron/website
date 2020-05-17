@@ -28,6 +28,14 @@
   .section > div {
     margin-bottom: 4rem;
   }
+
+  & > .section {
+    max-width: 80%;
+
+    &:nth-child(even) {
+      background: red;
+    }
+  }
 }
 
 .home-hero {
