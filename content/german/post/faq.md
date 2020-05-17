@@ -6,6 +6,7 @@ excerpt: Guide to emoji usage in Hugo
 authors:
 - Hugo Authors
 visual: "/uploads/library.jpg"
+created_at: 17-05-2020T16:22
 
 ---
 ## Häufig gestellte Fragen
