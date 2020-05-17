@@ -79,6 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
     bodyElement.style.setProperty('--success', '#46b17b');
     bodyElement.style.setProperty('--menuBackground', 'rgba(17, 18, 22, 0.5)');
     bodyElement.style.setProperty('--menuText', 'rgba(250, 250, 250, 0.5)');
+    bodyElement.style.setProperty('--menuEdge', 'rgba(250, 250, 250, 0.075)');
     bodyElement.style.setProperty('--errorBackground', 'rgba(238, 86, 91, 0.1)');
     bodyElement.style.setProperty('--horizontalRule', 'rgba(255, 255, 255, 0.15)');
     bodyElement.style.setProperty('--inputBackground', 'rgba(255, 255, 255, 0.07)');
@@ -104,6 +105,7 @@ document.addEventListener('DOMContentLoaded', () => {
     bodyElement.style.setProperty('--inputBackground', '');
     bodyElement.style.setProperty('--menuBackground', '');
     bodyElement.style.setProperty('--menuText', '');
+    bodyElement.style.setProperty('--menuEdge', '');
     bodyElement.style.setProperty('--tooltip', 'lightgrey');
   }
 });

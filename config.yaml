@@ -4,41 +4,44 @@ baseURL: https://digital-decameron.github.io/
 languageCode: de
 defaultContentLanguage: de
 languages:
-  de:
-    languageCode: de
-    languageName: Deutsch
-    contentDir: content/german
-    weight: 2
-  en:
-    languageCode: en
-    languageName: English
-    contentDir: content/english
-    weight: 1
-    title: Digital Decameron
+    de:
+        languageCode: de
+        languageName: Deutsch
+        contentDir: content/german
+        weight: 2
+    en:
+        languageCode: en
+        languageName: English
+        contentDir: content/english
+        weight: 1
+        title: Digital Decameron
 Params:
-  googleFonts:
-  - - Fira Code
-    - '400'
-  - - Open Sans
-    - 400, 400i, 600, 600i
-  description: Digital Decameron
+    googleFonts:
+        -   - Fira Code
+            - '400'
+        -   - Open Sans
+            - 400, 400i, 600, 600i
+    description: Digital Decameron
 enableGitInfo: true
 canonifyURLs: true
 enableEmoji: true
 summaryLength: 70
 pygmentsUseClasses: true
 markup:
-  highlight:
-    codeFences: true
-    guessSyntax: false
-    hl_Lines: ''
-    lineNoStart: 1
-    lineNos: false
-    lineNumbersInTable: true
-    noClasses: true
-    style: dracula
-    tabWidth: 4
-  tableOfContents:
-    startLevel: 3
-    endLevel: 6
-    ordered: false
+    highlight:
+        codeFences: true
+        guessSyntax: false
+        hl_Lines: ''
+        lineNoStart: 1
+        lineNos: false
+        lineNumbersInTable: true
+        noClasses: true
+        style: dracula
+        tabWidth: 4
+    tableOfContents:
+        startLevel: 3
+        endLevel: 6
+        ordered: false
+    goldmark:
+        renderer:
+            unsafe: true

@@ -30,9 +30,10 @@
 }
 
 .menu.menu--main {
-  max-width: 1220px;
-  margin:    0 auto;
-  padding:   1rem 7rem;
+  max-width:     1140px;
+  margin:        0 auto;
+  padding:       1rem 0;
+  border-bottom: 1px solid var(--menuEdge);
 
   .menu__menu-item {
     color: var(--menuText);
@@ -46,10 +47,6 @@
       font-weight: bold;
     }
   }
-}
-
-.section--home .menu.menu--main {
-  padding: 1rem 3rem;
 }
 
 .menu__menu-item {
