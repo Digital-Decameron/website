@@ -13,6 +13,7 @@ sections:
   match: "*"
   templates:
   - homepage-hero-section
+  - text-left-side-section
   - visual-left-section
   - visual-right-section
   - full-width-section
