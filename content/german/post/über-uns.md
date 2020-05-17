@@ -7,8 +7,8 @@ visual = "/uploads/digitaldekameron.JPG"
 +++
 ## Wer wir sind
 
-Es war einmal eine kleine Gruppe von Menschen, die beim Hackathon der Bundesregierung #WirVsVirus zueinanderfanden und die sich mit der Frage befassten, was man tun könnte, um sich in den Zeiten der Pandemie gegenseitig zu stützen und Kraft zu geben.
+Es war einmal eine kleine Gruppe von Menschen, die beim Hackathon der Bundesregierung #WirVsVirus zueinander fanden und sich mit der Frage befassten, was man tun könnte, um sich in den Zeiten der Pandemie und Isolation gegenseitig zu stützen und Kraft zu geben.
 
-Am Ende eines ebenso produktiven wie emotionalen Wochenendes war das Digital Decameron als Format geboren, das wir nun mit all jenen teilen möchten, die sich für die Idee begeistern.
+Am Ende eines ebenso produktiven wie emotionalen Wochenendes war das Digital Decameron als Format geboren. Dieses möchten wir nun mit all jenen teilen, die sich für die Idee begeistern.
 
-Wir das sind Moritz, Oliver, Lars, Janna, Marcus, Caro, Christina, Kerstin und Thomas. Wenn ihr Fragen, Anregungen oder Kommentare habt, meldet euch gerne bei uns. Wir würden uns freuen, wenn ihr die Geschichte des Digital Decamerons mit uns weiterschreibt.
+Wir das sind Caro, Christina, Janna, Kerstin, Lars, Marcus, Moritz, Moritz, Oliver und Thomas. Wenn ihr Fragen, Anregungen oder Kommentare habt, meldet euch gerne bei uns. Wir würden uns freuen, wenn ihr die Geschichte des Digital Decamerons mit uns weiterschreibt.
