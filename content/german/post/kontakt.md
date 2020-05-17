@@ -1,6 +1,7 @@
 +++
 created_at = 2020-05-08T17:42:00Z
 show_in_menu = true
+menus = [ "footer" ]
 title = "Kontakt"
 visual = "/uploads/selective-focus-photo-of-green-telephone-955081.jpg"
 

@@ -1,0 +1,7 @@
+<nav class="menu menu--footer">
+    {{ range .Site.Menus.footer }}
+        <a href="{{ .URL }}" title="{{ .Title }}" class="menu__menu-item">
+            {{- .Name -}}
+        </a>
+    {{ end }}
+</nav>
