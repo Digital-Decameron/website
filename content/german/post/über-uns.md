@@ -11,4 +11,4 @@ Es war einmal eine kleine Gruppe von Menschen, die beim Hackathon der Bundesregi
 
 Am Ende eines ebenso produktiven wie emotionalen Wochenendes war das Digital Decameron als Format geboren, das wir nun mit all jenen teilen möchten, die sich für die Idee begeistern.
 
-Wir das sind Moritz, Oliver, Lars, Janna, Marcus, Caro, Christina, Kerstin und Thomas. Wenn ihr Fragen, Anregungen oder Kommentare habt, meldet euch gerne bei uns. Wir würden uns freuen, wenn ihr die Geschichte des Digital Camerons mit uns weiterschreibt.
+Wir das sind Moritz, Oliver, Lars, Janna, Marcus, Caro, Christina, Kerstin und Thomas. Wenn ihr Fragen, Anregungen oder Kommentare habt, meldet euch gerne bei uns. Wir würden uns freuen, wenn ihr die Geschichte des Digital Decamerons mit uns weiterschreibt.
