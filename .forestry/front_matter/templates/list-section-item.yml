@@ -1,4 +1,21 @@
 ---
 label: List Section Item
 hide_body: true
-fields: []
+display_field: text
+fields:
+- name: icon
+  type: file
+  config:
+    maxSize: 64
+  label: Icon
+  description: An icon to show left to the text
+- name: text
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Text
+  description: List item text
