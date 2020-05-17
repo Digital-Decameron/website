@@ -5,7 +5,7 @@ hero: "/images/hero-3.jpg"
 excerpt: Guide to emoji usage in Hugo
 authors:
 - Hugo Authors
-visual: "/uploads/blur-book-stack-books-bookshelves-590493.jpg"
+visual: "/uploads/library.jpg"
 
 ---
 ## Häufig gestellte Fragen
