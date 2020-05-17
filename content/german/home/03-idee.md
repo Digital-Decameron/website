@@ -1,7 +1,7 @@
 +++
 headline = "Die Idee: Das Digital Decameron"
 headline_hidden = false
-layout_type = ""
+layout_type = "visual_left"
 section_headline = "Die Idee: Das Digital Decameron"
 visual = ""
 

@@ -9,24 +9,123 @@
     {{ end }}
 
     <div class="home-sections">
-        {{ range (where .Site.RegularPages.ByTitle "Section" "home" ) }}
-            <section class="section section--home">
-                <header class="section__header">
-                    <h4 class="section__title">{{ .Params.section_headline }}</h4>
-                </header>
+        {{ range (sort (where site.RegularPages "Section" "home" ) "BaseFileName" ) }}
+            {{ if eq .Params.layout_type "hero" }}
+                <section class="section section--home section--home-hero">
+                    <header class="section__hero-header">
+                        <h2>{{ .Params.title }}</h2>
+                        <h3>{{ .Params.subtitle }}</h3>
+                    </header>
 
-                <div class="section__content-wrapper">
-                    {{ with .Params.visual }}
-                        <div class="section__media">
-                            <img src="{{ . }}" alt="">
+                    <div class="section__content-wrapper">
+                        <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden">
+                            <iframe src="{{ .Params.video_link }}"
+                                    style="position:absolute;top:0;left:0;width:100%;height:100%;border:0"
+                                    allowfullscreen
+                                    title="YouTube Video"></iframe>
                         </div>
+
+                    </div>
+                </section>
+            {{ else if eq .Params.layout_type "full" }}
+                <section class="section section--home section--home-full">
+                    {{ if not .Params.headline_hidden }}
+                        <header class="section__header">
+                            <h4 class="section__title">
+                                {{ .Params.section_headline }}
+                            </h4>
+                        </header>
                     {{ end }}
 
-                    <div class="section__content">
-                        {{ .Content }}
+                    <div class="section__content-wrapper">
+                        <div class="section__content">
+                            {{ .Content }}
+                        </div>
                     </div>
-                </div>
-            </section>
+                </section>
+            {{ else if eq .Params.layout_type "text_left" }}
+                <section class="section section--home section--home-text-left">
+                    {{ if not .Params.headline_hidden }}
+                        <header class="section__header">
+                            <h4 class="section__title">
+                                {{ .Params.section_headline }}
+                            </h4>
+                        </header>
+                    {{ end }}
+
+                    <div class="section__content-wrapper">
+                        <div class="section__content">
+                            {{ .Content }}
+                        </div>
+                    </div>
+                </section>
+            {{ else if eq .Params.layout_type "visual_left" }}
+                <section class="section section--home section--home-visual-left">
+                    {{ if not .Params.headline_hidden }}
+                        <header class="section__header">
+                            <h4 class="section__title">
+                                {{ .Params.section_headline }}
+                            </h4>
+                        </header>
+                    {{ end }}
+
+                    <div class="section__content-wrapper">
+                        {{ with .Params.visual }}
+                            <div class="section__media">
+                                <img src="{{ . }}" alt="">
+                            </div>
+                        {{ end }}
+
+                        <div class="section__content">
+                            {{ .Content }}
+                        </div>
+                    </div>
+                </section>
+            {{ else if eq .Params.layout_type "visual_right" }}
+                <section class="section section--home section--home-visual-right">
+                    {{ if not .Params.headline_hidden }}
+                        <header class="section__header">
+                            <h4 class="section__title">
+                                {{ .Params.section_headline }}
+                            </h4>
+                        </header>
+                    {{ end }}
+
+                    <div class="section__content-wrapper">
+                        {{ with .Params.visual }}
+                            <div class="section__media">
+                                <img src="{{ . }}" alt="">
+                            </div>
+                        {{ end }}
+
+                        <div class="section__content">
+                            {{ .Content }}
+                        </div>
+                    </div>
+                </section>
+            {{ else if eq .Params.layout_type "list" }}
+                <section class="section section--home section--home-list">
+                    {{ if not .Params.headline_hidden }}
+                        <header class="section__header">
+                            <h4 class="section__title">
+                                {{ .Params.section_headline }}
+                            </h4>
+                        </header>
+                    {{ end }}
+
+                    <div class="section__content-wrapper">
+                        {{ with .Params.visual }}
+                            <div class="section__media">
+                                <img src="{{ . }}" alt="">
+                            </div>
+                        {{ end }}
+
+                        <div class="section__content">
+                            {{ .Content }}
+                        </div>
+                    </div>
+                </section>
+            {{ end }}
         {{ end }}
     </div>
 

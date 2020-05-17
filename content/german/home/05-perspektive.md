@@ -1,7 +1,7 @@
 +++
 headline = "Die Perspektive: Decameron weltweit"
 headline_hidden = false
-layout_type = ""
+layout_type = "visual_left"
 section_headline = "Die Perspektive: Decameron weltweit"
 visual = ""
 
