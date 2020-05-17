@@ -15,3 +15,5 @@ fields:
   type: boolean
   label: Headline hidden
   description: If the headline is hidden, it won't be shown for this section.
+pages:
+- content/german/home/02-ursprung.md
