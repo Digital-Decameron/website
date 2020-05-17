@@ -22,3 +22,13 @@ fields:
   type: boolean
   label: Headline hidden
   description: Whether the headline should be hidden
+- name: content
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Section content
+  description: Content for this section
