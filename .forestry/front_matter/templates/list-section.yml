@@ -24,5 +24,13 @@ fields:
     min: 
     max: 
   description: Items in the list.
+- name: layout_type
+  type: text
+  config:
+    required: false
+  label: Layout Type
+  description: The layout type. Should not be modified.
+  hidden: true
+  default: list
 pages:
 - content/german/home/04-ablauf.md
