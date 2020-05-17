@@ -6,7 +6,7 @@ visual = "/uploads/library.jpg"
 [menu.footer]
 weight = 1
 [menu.main]
-weight = 2
+weight = 3
 
 +++
 ## Häufig gestellte Fragen
