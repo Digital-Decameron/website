@@ -3,6 +3,12 @@ label: Visual left side section
 hide_body: false
 display_field: headline
 fields:
+- name: visual
+  type: file
+  config:
+    maxSize: 6
+  label: Visual
+  description: A section visual. Will be shown on the right.
 - name: headline
   type: text
   config:
@@ -11,12 +17,6 @@ fields:
   description: Section headline
   showOnly:
     field: headline_hidden
-- name: visual
-  type: file
-  config:
-    maxSize: 6
-  label: Visual
-  description: A section visual. Will be shown on the right.
 - name: headline_hidden
   type: boolean
   label: Headline hidden
