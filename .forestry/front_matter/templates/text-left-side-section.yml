@@ -23,5 +23,3 @@ fields:
   description: The layout type. Should not be modified.
   hidden: true
   default: text_left
-pages:
-- content/german/home/02-ursprung.md
