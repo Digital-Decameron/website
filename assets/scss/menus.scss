@@ -11,7 +11,7 @@
 
   @supports (backdrop-filter: none) {
     background:      var(--menuBackground);
-    backdrop-filter: blur(15px) saturate(200%);
+    backdrop-filter: blur(20px) saturate(200%);
     box-shadow:      none;
   }
 }
@@ -30,9 +30,9 @@
 }
 
 .menu.menu--main {
-  max-width:     1140px;
+  max-width:     1204px;
   margin:        0 auto;
-  padding:       1rem 0;
+  padding:       1rem 2rem;
   border-bottom: 1px solid var(--menuEdge);
 
   .menu__menu-item {
