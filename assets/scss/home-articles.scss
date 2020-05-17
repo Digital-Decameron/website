@@ -74,3 +74,37 @@
 
 .home__list .list__list-item {
 }
+
+.section--home-visual-left {
+  @media screen and (min-width: $phablet) {
+    .section__content-wrapper {
+      display:     flex;
+      align-items: center;
+      margin-top:  4rem;
+    }
+  }
+
+  .section__media {
+    margin: 4rem 0;
+
+    @media screen and (min-width: $phablet) {
+      width:  30%;
+      margin: 0;
+    }
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .section__media + .section__content {
+    @media screen and (min-width: $phablet) {
+      width:        70%;
+      padding-left: 2rem;
+
+      p:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

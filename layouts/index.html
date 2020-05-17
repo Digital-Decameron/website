@@ -79,10 +79,8 @@
                             </div>
                         {{ end }}
 
-                        <div class="section__content-wrapper">
-                            <div class="section__content">
-                                {{ .Content }}
-                            </div>
+                        <div class="section__content">
+                            {{ .Content }}
                         </div>
                 </section>
             {{ else if eq .Params.layout_type "visual_right" }}
