@@ -9,6 +9,8 @@ weight = 2
 +++
 ## Tipps für Videoanruf-Tools
 
+In der nachfolgenden Tabelle möchten wir einige mögliche Tools für Videoanrufe vorstellen. Es handelt sich hier um kostenlose Varianten für Privatpersonen. Die Auswahl und Beschreibungen der Tools beruhen auf eigenen Recherchen sowie teilweise eigenen Erfahrungen. Wir bemühen uns, die Angaben aktuell zu halten. Dennoch können wir keine Garantie auf Vollständigkeit, Richtigkeit und Aktualität gewähren. Wir möchten zudem ausdrücklich darauf hinweisen, dass dies nur eine Hilfestellung darstellen soll und es sich nicht um bezahlte Werbung handelt. Jegliche Haftung ist ausgeschlossen.
+
 | Tool        | Beschreibung           | Einschränkungen  |  
 | ------------- |:-------------:| -----:|  
 | Google Hangouts | Hangouts ist der Messenger von Google, mit dem kostenlose SMS/Chat, Sprach- und Videoanrufe möglich sind. Bei einem Gruppenvideoanruf können maximal 10 Personen teilnehmen, was für ein Dekameron aber genau passt. Um einen Anruf zu starten erstellt der Moderator einen Freigabelink, der anschließend mit den Teilnehmenden geteilt wird. Jeder, der über den Link verfügt, kann am Anruf teilnehmen. Nutzer müssen sich jedoch zunächst bei Google anmelden, um beim Anruf teilnehmen zu können. | Teilnehmer brauchen ein Google-Konto, müssen sich also ggf. erst bei Google anmelden, um am Anruf teilnehmen zu können. |  
