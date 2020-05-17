@@ -12,6 +12,10 @@ sections:
   create: documents
   match: "*"
   templates:
+  - homepage-hero-section
+  - visual-left-section
+  - visual-right-section
+  - full-width-section
   - home-section
 - type: directory
   path: content/english/post
