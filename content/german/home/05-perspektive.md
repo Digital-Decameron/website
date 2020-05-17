@@ -10,4 +10,4 @@ Das Digital Decameron ist ein Open-Source-Projekt, das sich weiterentwickeln und
 
 Deswegen teilt das Format und eure Erfahrungen mit dem Digital Decameron mit Freunden, Familie, Bekannten und lasst uns gemeinsam den Funken der Hoffnung zu einem internationalen Lagerfeuer anfachen! :-)
 
-Wenn ihr dazu etwas in den sozialen Netzwerken postet, wären wir euch sehr dankbar, wenn ihr den Hashtag \`#digitaldecameron\` verwendet, damit wir die Erfahrungen zusammentragen können.
+Wenn ihr dazu etwas in den sozialen Netzwerken postet, wären wir euch sehr dankbar, wenn ihr den Hashtag #digitaldecameron verwendet, damit wir die Erfahrungen zusammentragen können.
