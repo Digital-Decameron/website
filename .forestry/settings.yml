@@ -28,6 +28,9 @@ sections:
   create: documents
   match: "*"
   templates:
+  - full-width-section
+  - visual-left-section
+  - visual-right-section
   - home-section
 - type: directory
   path: content/german/post
