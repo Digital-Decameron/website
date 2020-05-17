@@ -10,6 +10,6 @@ visual = ""
 +++
 ## 
 
-Entdecke die heilende Kraft des Erzählens in Zeiten der Ungewissheit und sozialen Vereinzelung.
+Entdecke die heilende Kraft des Erzählens in Zeiten der Ungewissheit und sozialen Vereinzelung..
 
 {{< youtube INEHhQbn5bw >}}
