@@ -24,3 +24,5 @@ fields:
     min: 
     max: 
   description: Items in the list.
+pages:
+- content/german/home/04-ablauf.md
