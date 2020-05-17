@@ -18,5 +18,5 @@ visual: "/uploads/salvatore-postiglione-motiv-aus-der-erzählung-des-dekameron-(
  6. Wenn ihr einem Erzähler die Bühne überlasst, schaltet eure Mikros aus.
  7. Versucht euch an die zehn Minuten Erzählzeit zu halten.
  8. Lasst die Geschichten unkommentiert auf euch wirken und ihre heilende Kraft entfalten. Ihr könnt jedem Vortragenden am Ende auch herzlichen Applaus spenden.
- 9. Erzählt, wenn ihr wollt, am Ende, wie ihr den Abend empfunden habt und die Geschichten auf euch gewirkt haben.
+ 9. Erzählt, wenn ihr wollt, am Ende des Digital Decamerons, wie ihr den Abend empfunden habt und die Geschichten auf euch gewirkt haben.
 10. Habt vor allem Spaß an der Sache und wiederholt das ganze gerne mit weitern lieben Menschen.
