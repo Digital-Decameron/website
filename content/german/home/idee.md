@@ -1,5 +1,4 @@
 +++
-draft = true
 headline_hidden = false
 section_headline = "Die Idee: Das Digital Decameron"
 visual = ""
