@@ -21,6 +21,6 @@ info@digital-decameron.de
 
 Webdesign, Konzeption & Programmierung:
 
-Namen ergänzen
+**Namen ergänzen**
 
 Copyright © 2020 – Alle Rechte vorbehalten
