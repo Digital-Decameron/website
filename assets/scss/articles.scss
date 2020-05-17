@@ -546,10 +546,9 @@
 
   /*PHABLET*/
   @media screen and (max-width: $phablet) {
-    min-width:          100% !important;
-    margin-bottom:      40px;
-    -webkit-box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.2);
-    box-shadow:         0px 20px 40px rgba(0, 0, 0, 0.2);
+    min-width:     100% !important;
+    margin-bottom: 40px;
+    box-shadow:    0 20px 40px rgba(0, 0, 0, 0.2);
 
     &:hover .image-container {
       -webkit-transform:  none;

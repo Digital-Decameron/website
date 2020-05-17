@@ -1,7 +1,9 @@
 <nav class="menu menu--main">
-    <a href="{{ .Site.BaseURL }}" title="Homepage" class="menu__menu-item">
-        Home
-    </a>
+    {{ if not .IsHome }}
+        <a href="{{ .Site.BaseURL }}" title="Homepage" class="menu__menu-item">
+            Home
+        </a>
+    {{ end }}
 
     {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
@@ -11,4 +13,3 @@
         </a>
     {{ end }}
 </nav>
-

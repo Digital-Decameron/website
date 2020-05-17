@@ -29,11 +29,24 @@
     margin-bottom: 4rem;
   }
 
-  & > .section {
-    max-width: 80%;
+  @media screen and (min-width: $desktop) {
+    & > .section {
+      &:first-child {
+        margin-top: 5rem;
+      }
 
-    &:nth-child(even) {
-      background: red;
+      &:nth-child(n+2) {
+        margin-top:    15rem;
+        margin-bottom: 15rem;
+      }
+
+      &:nth-child(2n+2) {
+        padding-right: 25%;
+      }
+
+      &:nth-child(2n+3) {
+        padding-left: 25%;
+      }
     }
   }
 }
