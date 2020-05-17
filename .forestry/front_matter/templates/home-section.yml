@@ -22,3 +22,5 @@ fields:
   type: boolean
   label: Headline hidden
   description: Whether the headline should be hidden
+pages:
+- content/german/home/02-ursprung.md
