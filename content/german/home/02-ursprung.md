@@ -1,7 +1,7 @@
 +++
 headline = "Der Ursprung: Das Decamerone"
 headline_hidden = false
-layout_type = "visual_left"
+layout_type = "text_left"
 section_headline = "Der Ursprung: Das Decamerone"
 visual = ""
 
