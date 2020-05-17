@@ -21,3 +21,11 @@ fields:
     required: false
   label: Video Link
   description: Link to a video on Youtube or Vimeo. Will be shown full-width.
+- name: layout_type
+  type: text
+  config:
+    required: false
+  label: Layout type
+  description: The layout type. Should not be modified.
+  hidden: true
+  default: hero
