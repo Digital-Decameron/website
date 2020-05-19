@@ -1,5 +1,5 @@
 +++
-headline = "Der Ablauf:10 Geschichten. 10 Menschen. 10 Minuten."
+headline = "Der Ablauf: 10 Geschichten. 10 Menschen. 10 Minuten."
 headline_hidden = false
 layout_type = "list"
 section_headline = "Der Ablauf: Zehn Geschichten, 10 Menschen. Je 10 Minuten."
